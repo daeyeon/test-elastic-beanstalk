@@ -1,0 +1,56 @@
+MAIN INFO
+=========
+
+https://medium.com/@sommershurbaji/continuous-delivery-with-aws-elastic-beanstalk-and-travis-ci-2dd54754965f
+
+https://hackernoon.com/aws-vs-heroku-cloud-platform-comparison-for-2017-5f2194c0673e
+
+Amazon Elastic Compute Cloud (EC2) (IaaS)
+AWS Elastic Beanstalk (PaaS)
+Amazon Simple Storage Service (S3)
+Heroku (Pass)
+
+
+FOCUS
+=====
+
+https://medium.com/@sommershurbaji/continuous-delivery-with-aws-elastic-beanstalk-and-travis-ci-2dd54754965f
+
+https://www.google.co.kr/search?ei=Z_17WsTmEMa00AThupTwDQ&q=nodejs+app+deploy+Elastic+Beanstalk&oq=nodejs+app+deploy+Elastic+Beanstalk&gs_l=psy-ab.3...2253.6426.0.6671.17.15.0.0.0.0.440.2000.2-5j1j1.7.0....0...1c.1.64.psy-ab..12.2.496...0i7i30k1j0i7i10i30k1j0i7i5i10i30k1j0i10i30k1j0i8i10i30k1j0i10k1.0.-5Ez2Q2RP6k
+
+
+
+THINK STUFFS
+============
+
+
+
+heroku:
+- https://blog.codeship.com/heroku-github-nodejs-deployment/
+
+AWS CODEDEPLOY:
+https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-github.html
+
+- AWS CodeDeploy automates code deployments to Amazon EC2 instances.
+  It deploys applications from Amazon S3 buckets and GitHub repositories.
+
+AWS에 deploy하면 db연동등이 더 쉬울수도.
+- https://github.com/aws-samples/eb-node-express-sample
+
+AWS Elastic Beanstalk is an easy-to-use service for deploying and
+ scaling web applications and services developed with Java.NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
+
+
+You can simply upload your code and Elastic Beanstalk automatically handles the deployment,
+from capacity provisioning, load balancing, auto-scaling to application health monitoring.
+At the same time, you retain full control over the AWS resources powering your application
+and can access the underlying resources at any time.
+
+There is no additional charge for Elastic Beanstalk - you pay only for the AWS resources
+needed to store and run your applications.
+
+https://github.com/tooltwist/documentation/wiki/Deploying-a-NodeJS-app-to-Elastic-Beanstalk
+
+* App당 docker 가 필요? - EC2
+* 단지 App 배포? - Elastic Beanstalk
+* Function 배포? - Lambda
